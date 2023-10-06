@@ -1,0 +1,41 @@
+body,
+div,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    padding: 10px;
+    text-align: center;
+}
+
+div {
+    padding: 30px;
+}
+
+#first {
+    padding-top: 65px
+}
+
+#clickMe {
+    background-color: #eff;
+    display: inline-block;
+    padding: 10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+}
+
+#clickMe:hover {
+    cursor: pointer;
+}
+
+.darkMode {
+    background-color: #000;
+    color: #eff;
+}
+
+#clickMe.click {
+    color: black;
+}
